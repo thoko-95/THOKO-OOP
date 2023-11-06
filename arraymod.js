@@ -1,1 +1,9 @@
-let courses = ["java" , "Ruby " , "Vue"]
+let courses = ["Java" , "Ruby " , "Vue"];
+
+courses.forEach(func);
+
+function func(elements)
+{
+    console.log(elements);
+}
+courses.forEach(func);
