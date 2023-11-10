@@ -9,7 +9,14 @@ fetch ('./data.json')
             const itemList = document.createElement('li');
             itemList.innerHTML = `<strong>Name : </strong> ${item.name}
             <br>strong>Email:</strong> ${item.email}`
+            //console.log(itemList)
+            //console.log(data);
             dataList.appendChild(itemList);
+            var  results = JSON.stringify(data);
+            var list = data.toLowerCase();
+            var list = 
+
+            console.log(list);
             
         });
     })
